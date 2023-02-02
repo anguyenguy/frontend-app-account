@@ -69,6 +69,11 @@ const siteLanguageList = [
     name: '中文 (简体)',
     released: true,
   },
+  {
+    code: 'vi',
+    name: 'Vietnamese',
+    released: true,
+  },
 ];
 
 export default siteLanguageList;

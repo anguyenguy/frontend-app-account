@@ -479,6 +479,8 @@ class AccountSettingsPage extends React.Component {
       this.context.locale,
     );
 
+    console.log('this.props.siteLanguageOptions', this.props.siteLanguageOptions);
+
     const hasLinkedTPA = findIndex(this.props.tpaProviders, provider => provider.connected) >= 0;
     return (
       <>
